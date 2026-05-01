@@ -1,0 +1,2376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance by Nawfal | L'Élégance Intemporelle</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23b8860b' width='100' height='100' rx='10'/><text x='50%25' y='55%25' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='serif'>N</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23b8860b' width='100' height='100' rx='10'/><text x='50%25' y='55%25' font-size='60' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='serif'>N</text></svg>">
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Fragrance by Nawfal - Maison de parfumerie depuis 1892. Découvrez notre collection de parfums de luxe.">
+    <meta name="theme-color" content="#b8860b">
+    <meta property="og:title" content="Fragrance by Nawfal">
+    <meta property="og:description" content="L'Élégance Intemporelle - Parfums de luxe depuis 1892">
+    <meta property="og:type" content="website">
+    
+    <!-- Safari Compatibility -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Critical CSS for ALL Browsers including Safari -->
+    <style>
+        /* ============ SAFARI + ALL BROWSERS FIX ============ */
+        
+        /* Reset */
+        *, *::before, *::after {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        /* Body */
+        body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        /* All Images */
+        img {
+            max-width: 100% !important;
+            height: auto !important;
+            display: block;
+            -webkit-user-drag: none;
+            -khtml-user-drag: none;
+            -moz-user-drag: none;
+            -o-user-drag: none;
+        }
+        
+        /* Specific Images */
+        .cart-item-image, .order-item-image { 
+            width: 80px !important; 
+            height: 80px !important; 
+            max-width: 80px !important; 
+            max-height: 80px !important; 
+            -webkit-object-fit: cover !important;
+            object-fit: cover !important; 
+            -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+        }
+        
+        .team-image, .signature-avatar, .perfumer-avatar { 
+            width: 70px !important; 
+            height: 70px !important; 
+            max-width: 150px !important; 
+            max-height: 150px !important; 
+            -webkit-border-radius: 50% !important;
+            border-radius: 50% !important; 
+            -webkit-object-fit: cover !important;
+            object-fit: cover !important; 
+        }
+        
+        .product-image-elegant { 
+            max-height: 300px !important; 
+            -webkit-object-fit: cover !important;
+            object-fit: cover !important; 
+        }
+        
+        .card-icon { 
+            width: 40px !important; 
+            height: 25px !important; 
+            max-width: 40px !important; 
+            max-height: 25px !important; 
+        }
+        
+        /* Flexbox Safari Fix */
+        .d-flex, [class*="d-flex"] {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+        }
+        
+        .align-items-center {
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+        
+        .justify-content-between {
+            -webkit-box-pack: justify;
+            -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+        
+        /* Grid Safari Fix */
+        .heritage-grid, .products-grid-elegant, .experience-grid, .values-grid, .team-grid {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        
+        /* Animations Safari Fix */
+        @-webkit-keyframes loadProgress {
+            to { width: 100%; }
+        }
+        @keyframes loadProgress {
+            to { width: 100%; }
+        }
+        
+        @-webkit-keyframes noirFloat {
+            0%, 100% { -webkit-transform: translateY(0); transform: translateY(0); }
+            50% { -webkit-transform: translateY(-16px); transform: translateY(-16px); }
+        }
+        @keyframes noirFloat {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-16px); }
+        }
+        
+        /* Transform Safari Fix */
+        .product-card-elegant:hover {
+            -webkit-transform: translateY(-10px);
+            -ms-transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+        
+        /* Transition Safari Fix */
+        .btn-primary-elegant, .btn-secondary-elegant, .product-btn-elegant, .nav-link-elegant {
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+        
+        /* Backdrop Filter Safari Fix */
+        .navbar-elegant.scrolled {
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+        }
+        
+        /* Border Radius Safari Fix */
+        .heritage-card, .product-card-elegant, .experience-card, .value-card {
+            -webkit-border-radius: 2px;
+            border-radius: 2px;
+        }
+        
+        /* Box Shadow Safari Fix */
+        .hero-image, .lor-noir-image, .atelier-image {
+            -webkit-box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4);
+        }
+        
+        /* Scroll Behavior Safari Fix */
+        html {
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+        
+        /* Input Safari Fix */
+        input, textarea, select, button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0;
+        }
+        
+        input[type="text"], input[type="email"], input[type="tel"], input[type="password"], textarea {
+            -webkit-appearance: none;
+            font-size: 16px; /* Prevents zoom on iOS */
+        }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="coco-redesign">
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-logo">FRAGRANCE BY NAWFAL</div>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+        <div class="loading-text">L'Essence se Dévoile</div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="successMessage">
+        <i class="fas fa-check-circle"></i> Produit ajouté au panier
+    </div>
+
+    <div class="site-frame">
+    <!-- Navigation -->
+    <nav class="navbar-editorial" id="navbarElegant">
+        <div class="container navbar-editorial-container">
+            <div class="nav-brand-editorial">
+                <a href="#" onclick="showPage('home')">FRAGRANCE BY NAWFAL</a>
+            </div>
+            
+            <div class="nav-menu-editorial">
+                <span class="nav-link-editorial active" onclick="showPage('home')">home</span>
+                <span class="nav-link-editorial" onclick="showPage('about')">about</span>
+                <span class="nav-link-editorial" onclick="showPage('collection')">collection</span>
+                <span class="nav-link-editorial" onclick="showPage('maison')">maison</span>
+                <span class="nav-link-editorial" onclick="showPage('journal')">journal</span>
+                <span class="nav-link-editorial" onclick="showPage('contact')">contact</span>
+            </div>
+
+            <div class="nav-actions-editorial">
+                <button class="action-btn-editorial" onclick="openSearch()">
+                    <i class="fas fa-search"></i> Search
+                </button>
+                <button class="action-btn-editorial" onclick="showPage('cart')">
+                    <i class="fas fa-shopping-cart"></i> (<span id="cartCount">0</span>)
+                </button>
+                <button class="mobile-menu-btn-editorial" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <div class="nav-menu-elegant" id="navMenu">
+                <button class="mobile-close-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <span class="nav-link-elegant active" data-page="home" onclick="showPage('home')">Perfumes</span>
+                <span class="nav-link-elegant" data-page="about" onclick="showPage('about')">Brands</span>
+                <span class="nav-link-elegant" data-page="collection" onclick="showPage('collection')">Shop</span>
+                <span class="nav-link-elegant" data-page="maison" onclick="showPage('maison')">Outfits</span>
+                <span class="nav-link-elegant" data-page="journal" onclick="showPage('journal')">Guides</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="search-overlay" id="searchOverlay" onclick="closeSearch(event)">
+        <div class="search-panel" onclick="event.stopPropagation()">
+            <div class="search-input-shell">
+                <i class="fas fa-search"></i>
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search-input-elegant"
+                    placeholder="Rechercher un parfum"
+                    oninput="handleSearchInput(this.value)"
+                >
+                <button class="search-close-elegant" onclick="closeSearch()" aria-label="Fermer la recherche">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <button class="search-collection-card" onclick="openSearchCollection()">
+                <div class="search-collection-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="search-collection-copy">
+                    <strong>Collection de parfums</strong>
+                    <p>Voir tous les produits disponibles</p>
+                </div>
+            </button>
+
+            <div class="search-results-list" id="searchResultsList"></div>
+            <button class="search-more-results" id="searchMoreResults" onclick="openSearchCollection()">
+                Voir plus de resultats
+            </button>
+        </div>
+    </div>
+
+    <!-- ==================== HOME PAGE ==================== -->
+    <div id="page-home" class="page active">
+        <!-- Editorial Hero Section -->
+        <section class="hero-editorial">
+            <div class="container hero-container-editorial">
+                <div class="hero-left-editorial">
+                    <div class="hero-small-text">
+                        Buy Popular<br>Colognes on<br>Sale at a Discount
+                    </div>
+                    <div class="hero-title-editorial">
+                        <div class="title-line">World Class</div>
+                        <div class="title-line title-line-bottom">
+                            Fragrance 
+                            <div class="title-pill-image">
+                                <img src="https://twinfragrance.shop/cdn/shop/files/IMG-0967.png?v=1759792952&width=493" alt="Perfume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right-editorial">
+                    <div class="hero-oval-image">
+                        <img src="https://twinfragrance.shop/cdn/shop/files/IMG-0967.png?v=1759792952&width=493" alt="Perfume Oval">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Description Section -->
+        <section class="description-editorial">
+            <div class="container desc-container-editorial">
+                <div class="desc-left-editorial">
+                    <div class="desc-oval-group">
+                        <div class="desc-oval-image"><img src="https://twinfragrance.shop/cdn/shop/files/5172631C-9D80-4817-AC04-3E694155C1E9.png?v=1759693568&width=493" alt="Bottle 1"></div>
+                        <div class="desc-oval-image"><img src="https://twinfragrance.shop/cdn/shop/files/EF9F354F-8963-4B3E-8D7D-09A6C148F2E6.png?v=1759693589&width=493" alt="Bottle 2"></div>
+                    </div>
+                    <div class="desc-dots">...</div>
+                    <div class="desc-small-text">
+                        A fragrance is a smell, usually a pleasant<br>
+                        or sweet smell. Often perfumes are called<br>
+                        fragrances. If you like the fragrance.
+                    </div>
+                </div>
+                <div class="desc-right-editorial">
+                    <h2 class="desc-heading-editorial">
+                        A Fragrance Is A Smell, Usually A<br>
+                        Pleasant Or 
+                        <span class="desc-pill-image">
+                            <img src="https://twinfragrance.shop/cdn/shop/files/IMG-0967.png?v=1759792952&width=493" alt="Tiny Perfume">
+                        </span>
+                        Sweet Smell.
+                    </h2>
+                    <div class="desc-columns-editorial">
+                        <div class="desc-col">
+                            <div class="desc-icon">✳</div>
+                            <p>A fragrance is a smell, usually a pleasant or sweet smell. Often perfumes are called fragrances. If you like the fragrance.</p>
+                        </div>
+                        <div class="desc-col">
+                            <div class="desc-icon">✳</div>
+                            <p>A fragrance is a pleasant-smelling liquid which people put on their bodies to make themselves smell nice.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Details Section -->
+        <section class="details-editorial">
+            <div class="container details-container-editorial">
+                <h2 class="details-main-heading">More Details For You</h2>
+                <div class="details-content-wrapper">
+                    <div class="details-diagram">
+                        <div class="diagram-line line-horizontal"></div>
+                        <div class="diagram-line line-vertical"></div>
+                        <div class="node node-mandarin">Mandarin</div>
+                        <div class="node node-freesia">Freesia</div>
+                        <div class="node node-center">Top Note<br>Flavours</div>
+                        <div class="node node-citrus">Citruses</div>
+                    </div>
+                    <div class="details-product">
+                        <h3 class="details-sub-heading">About Fragrance</h3>
+                        <div class="details-product-image">
+                            <img src="https://www.bing.com/th/id/OIG1.mBMG3jkbAnP9rEMp1dSP?w=540&h=540&c=6&r=0&o=5&cb=thfvnext&pid=ImgGn" alt="Main Bottle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heritage Section -->
+        <section id="heritage" class="heritage-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Notre Histoire</div>
+                    <h2 class="section-heading-elegant">Héritage</h2>
+                </div>
+
+                <div class="heritage-grid">
+                    <div class="heritage-card" data-aos="fade-up" data-aos-delay="0">
+                        <div class="heritage-number">I</div>
+                        <h3 class="heritage-title">Tradition</h3>
+                        <p class="heritage-text">
+                            Plus d'un siècle de savoir-faire transmis de génération en génération, 
+                            préservant les techniques ancestrales de la parfumerie classique.
+                        </p>
+                    </div>
+
+                    <div class="heritage-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="heritage-number">II</div>
+                        <h3 class="heritage-title">Excellence</h3>
+                        <p class="heritage-text">
+                            Sélection rigoureuse des matières premières les plus nobles, 
+                            sourcées aux quatre coins du monde pour garantir une qualité irréprochable.
+                        </p>
+                    </div>
+
+                    <div class="heritage-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="heritage-number">III</div>
+                        <h3 class="heritage-title">Raffinement</h3>
+                        <p class="heritage-text">
+                            Chaque création est le fruit d'un travail méticuleux, 
+                            alliant passion artistique et précision technique pour sublimer l'essence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Featured Products -->
+        <section class="collection-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Sélection</div>
+                    <h2 class="section-heading-elegant">Nos Best-Sellers</h2>
+                </div>
+
+                <div class="products-grid-elegant featured-grid">
+                    <div class="product-card-elegant" data-aos="fade-up">
+                        <img src="https://twinfragrance.shop/cdn/shop/files/CF7E2B33-92F8-4D68-813D-4304302E703A.png?v=1759791920&width=493" alt="STRONGER WITH YOU ABSOLUTELY" class="product-image-elegant" onclick="showProductDetail(0)">
+                        <div class="product-info-elegant">
+                            <div class="product-category-elegant">Homme</div>
+                            <h3 class="product-name-elegant">Stronger With You Absolutely</h3>
+                            <div class="product-price-elegant">1,200 DH</div>
+                            <button class="product-btn-elegant" onclick="addToCart(0)">Ajouter au Panier</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card-elegant" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://twinfragrance.shop/cdn/shop/files/E5D46AD7-B2BB-48C3-BD5D-D39890149851.png?v=1759693640&width=493" alt="Bianco Latte" class="product-image-elegant" onclick="showProductDetail(6)">
+                        <div class="product-info-elegant">
+                            <div class="product-category-elegant">Femme</div>
+                            <h3 class="product-name-elegant">Bianco Latte</h3>
+                            <div class="product-price-elegant">1,400 DH</div>
+                            <button class="product-btn-elegant" onclick="addToCart(6)">Ajouter au Panier</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card-elegant" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://twinfragrance.shop/cdn/shop/files/IMG-0967.png?v=1759792952&width=493" alt="Creed Aventus" class="product-image-elegant" onclick="showProductDetail(11)">
+                        <div class="product-info-elegant">
+                            <div class="product-category-elegant">Homme</div>
+                            <h3 class="product-name-elegant">Creed Aventus</h3>
+                            <div class="product-price-elegant">3,800 DH</div>
+                            <button class="product-btn-elegant" onclick="addToCart(11)">Ajouter au Panier</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card-elegant" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://twinfragrance.shop/cdn/shop/files/IMG-8923.jpg?v=1762167701&width=493" alt="Kayali Vanille 28" class="product-image-elegant" onclick="showProductDetail(7)">
+                        <div class="product-info-elegant">
+                            <div class="product-category-elegant">Femme</div>
+                            <h3 class="product-name-elegant">Kayali Vanille 28</h3>
+                            <div class="product-price-elegant">2,000 DH</div>
+                            <button class="product-btn-elegant" onclick="addToCart(7)">Ajouter au Panier</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-5">
+                    <span onclick="showPage('collection')" class="btn-primary-elegant">Voir Toute la Collection</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Services</div>
+                    <h2 class="section-heading-elegant">Expérience</h2>
+                </div>
+
+                <div class="experience-grid">
+                    <div class="experience-card" data-aos="fade-up">
+                        <div class="experience-icon">
+                            <i class="fas fa-concierge-bell"></i>
+                        </div>
+                        <h3 class="experience-title">Service Personnalisé</h3>
+                        <p class="experience-text">
+                            Nos conseillers experts vous accompagnent dans la découverte de votre fragrance idéale.
+                        </p>
+                    </div>
+
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="experience-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h3 class="experience-title">Coffrets Exclusifs</h3>
+                        <p class="experience-text">
+                            Découvrez nos collections en coffrets prestigieux, parfaits pour offrir.
+                        </p>
+                    </div>
+
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="experience-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h3 class="experience-title">Création Sur-Mesure</h3>
+                        <p class="experience-text">
+                            Vivez une expérience unique en créant votre propre parfum personnalisé.
+                        </p>
+                    </div>
+
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="experience-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h3 class="experience-title">Livraison Premium</h3>
+                        <p class="experience-text">
+                            Service de livraison rapide et soigné avec emballage luxueux.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Témoignages</div>
+                    <h2 class="section-heading-elegant">Nos Clients</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4" data-aos="fade-up">
+                        <div class="testimonial-elegant">
+                            <p class="testimonial-text-elegant">
+                                "Une maison qui honore véritablement l'art de la parfumerie. 
+                                Chaque fragrance est une œuvre d'art qui raconte une histoire unique."
+                            </p>
+                            <div class="testimonial-author-elegant">Amina Benali</div>
+                            <div class="testimonial-role-elegant">Collectionneuse</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-elegant">
+                            <p class="testimonial-text-elegant">
+                                "L'excellence incarnée. Un savoir-faire incomparable 
+                                qui se ressent dans chaque note, chaque essence."
+                            </p>
+                            <div class="testimonial-author-elegant">Youssef Alami</div>
+                            <div class="testimonial-role-elegant">Connaisseur</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-elegant">
+                            <p class="testimonial-text-elegant">
+                                "Nawfal a su capturer l'essence de l'élégance intemporelle. 
+                                Une expérience olfactive qui transcende les modes."
+                            </p>
+                            <div class="testimonial-author-elegant">Sarah El Fassi</div>
+                            <div class="testimonial-role-elegant">Critique</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== ABOUT PAGE ==================== -->
+    <div id="page-about" class="page">
+        <div class="about-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / À PROPOS</div>
+                <h1 class="about-hero-title">Notre Histoire</h1>
+            </div>
+        </div>
+
+        <section class="about-story">
+            <div class="container">
+                <div class="about-story-grid">
+                    <div data-aos="fade-right">
+                        <img src="https://th.bing.com/th/id/OIG1.8CqvONyoqWKE7RaHYu_0?r=0&o=5&pid=ImgGn" alt="Notre Histoire" class="about-story-image">
+                    </div>
+                    <div class="about-story-content" data-aos="fade-left">
+                        <h2>Une Passion Séculaire</h2>
+                        <p>
+                            Fondée en 1892 au cœur du Maroc, la maison Nawfal perpétue depuis plus d'un siècle 
+                            l'art ancestral de la parfumerie. Notre histoire est celle d'une famille dévouée 
+                            à l'excellence, transmettant de génération en génération les secrets des plus 
+                            belles essences du monde.
+                        </p>
+                        <p>
+                            Chaque parfum que nous créons est le fruit d'un travail méticuleux, alliant 
+                            les techniques traditionnelles aux innovations modernes. Nous sélectionnons 
+                            les matières premières les plus nobles, des roses de Damas aux ouds les plus 
+                            précieux du Cambodge.
+                        </p>
+                        <p>
+                            Notre engagement envers la qualité est absolu. Nous croyons que le parfum 
+                            est bien plus qu'une fragrance – c'est une signature, une émotion, un souvenir 
+                            qui perdure dans le temps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-values">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Nos Principes</div>
+                    <h2 class="section-heading-elegant">Nos Valeurs</h2>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card" data-aos="fade-up">
+                        <div class="value-icon"><i class="fas fa-gem"></i></div>
+                        <h3 class="value-title">Excellence</h3>
+                        <p class="value-text">
+                            Nous ne faisons aucun compromis sur la qualité. Chaque ingrédient 
+                            est soigneusement sélectionné pour garantir une expérience olfactive incomparable.
+                        </p>
+                    </div>
+
+                    <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-icon"><i class="fas fa-leaf"></i></div>
+                        <h3 class="value-title">Durabilité</h3>
+                        <p class="value-text">
+                            Notre engagement envers l'environnement guide chacune de nos décisions, 
+                            de l'approvisionnement responsable aux emballages éco-conçus.
+                        </p>
+                    </div>
+
+                    <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-icon"><i class="fas fa-heart"></i></div>
+                        <h3 class="value-title">Passion</h3>
+                        <p class="value-text">
+                            Chaque création est née de notre amour profond pour l'art de la parfumerie, 
+                            transmis avec fierté de génération en génération.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">L'Équipe</div>
+                    <h2 class="section-heading-elegant">Nos Maîtres Parfumeurs</h2>
+                </div>
+
+                <div class="team-grid">
+                    <div class="team-card" data-aos="fade-up">
+                        <img src="https://ik.imagekit.io/szrau37qm/nawfali.jpeg" alt="Nawfal" class="team-image">
+                        <h4 class="team-name">Nawfal Ben Daoud</h4>
+                        <p class="team-role">Fondateur & Directeur Artistique</p>
+                    </div>
+
+                    <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200" alt="Fatima" class="team-image">
+                        <h4 class="team-name">Fatima El Amrani</h4>
+                        <p class="team-role">Maître Parfumeur Senior</p>
+                    </div>
+
+                    <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200" alt="Karim" class="team-image">
+                        <h4 class="team-name">Karim Tazi</h4>
+                        <p class="team-role">Chef de Laboratoire</p>
+                    </div>
+
+                    <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200" alt="Salma" class="team-image">
+                        <h4 class="team-name">Salma Idrissi</h4>
+                        <p class="team-role">Directrice Qualité</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== MAISON PAGE ==================== -->
+    <div id="page-maison" class="page">
+        <div class="about-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / MAISON</div>
+                <h1 class="about-hero-title">La Maison Nawfal</h1>
+            </div>
+        </div>
+
+        <section class="about-story">
+            <div class="container">
+                <div class="about-story-grid">
+                    <div data-aos="fade-right">
+                        <img src="https://images.unsplash.com/photo-1519666336592-e225a99dcd2f?w=800" alt="Maison Nawfal" class="about-story-image">
+                    </div>
+                    <div class="about-story-content" data-aos="fade-left">
+                        <h2>Un Héritage Marocain</h2>
+                        <p>
+                            Notre maison est née dans les ruelles parfumées de Tanger, là où les épices et les fleurs
+                            racontent des histoires. Chaque flacon incarne l'héritage marocain, la finesse artisanale
+                            et l'art du détail transmis depuis plus d'un siècle.
+                        </p>
+                        <p>
+                            Nous collaborons avec des cultivateurs locaux, des maîtres verriers et des artisans
+                            passionnés afin d'offrir des créations dignes des plus grandes maisons.
+                        </p>
+                        <p>
+                            Aujourd'hui, notre maison s'ouvre au monde, tout en conservant son âme intime et
+                            ses rituels de fabrication traditionnels.
+                        </p>
+                        <span onclick="showPage('collection')" class="btn-primary-elegant">Découvrir Nos Parfums</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Notre Savoir-Faire</div>
+                    <h2 class="section-heading-elegant">Les Piliers</h2>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-card" data-aos="fade-up">
+                        <div class="experience-icon"><i class="fas fa-seedling"></i></div>
+                        <h3 class="experience-title">Origines Précieuses</h3>
+                        <p class="experience-text">Sélection rigoureuse des matières premières rares, sourcées en Afrique et en Orient.</p>
+                    </div>
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="experience-icon"><i class="fas fa-hand-sparkles"></i></div>
+                        <h3 class="experience-title">Artisanat Épuré</h3>
+                        <p class="experience-text">Chaque fragrance est composée à la main dans nos ateliers privés.</p>
+                    </div>
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="experience-icon"><i class="fas fa-gem"></i></div>
+                        <h3 class="experience-title">Signature Élégante</h3>
+                        <p class="experience-text">Un design et une identité unique pour sublimer chaque essence.</p>
+                    </div>
+                    <div class="experience-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="experience-icon"><i class="fas fa-leaf"></i></div>
+                        <h3 class="experience-title">Engagement Durable</h3>
+                        <p class="experience-text">Des pratiques éthiques et une production responsable à chaque étape.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== COLLECTION PAGE ==================== -->
+    <div id="page-collection" class="page">
+        <div class="about-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / COLLECTION</div>
+                <h1 class="about-hero-title">Notre Collection</h1>
+            </div>
+        </div>
+
+        <section class="collection-section">
+            <div class="container">
+                <div class="filter-elegant" data-aos="fade-up">
+                    <button class="filter-btn-elegant active" data-filter="all" onclick="filterCollection('all', event)">Tous</button>
+                    <button class="filter-btn-elegant" data-filter="homme" onclick="filterCollection('homme', event)">Homme</button>
+                    <button class="filter-btn-elegant" data-filter="femme" onclick="filterCollection('femme', event)">Femme</button>
+                </div>
+
+                <div class="products-grid-elegant" id="productsGrid">
+                    <!-- Products will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== JOURNAL PAGE ==================== -->
+    <div id="page-journal" class="page">
+        <div class="about-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / JOURNAL</div>
+                <h1 class="about-hero-title">Journal Olfactif</h1>
+            </div>
+        </div>
+
+        <section class="about-values">
+            <div class="container">
+                <div class="section-title-elegant" data-aos="fade-up">
+                    <div class="section-eyebrow-elegant">Nos Histoires</div>
+                    <h2 class="section-heading-elegant">Chroniques</h2>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card" data-aos="fade-up">
+                        <div class="value-icon"><i class="fas fa-feather-alt"></i></div>
+                        <h3 class="value-title">Inspiration de Tanger</h3>
+                        <p class="value-text">Les senteurs des jardins secrets et les marchés d'épices qui nourrissent nos créations.</p>
+                    </div>
+                    <div class="value-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-icon"><i class="fas fa-vial"></i></div>
+                        <h3 class="value-title">Rituels de Fabrication</h3>
+                        <p class="value-text">Immersion dans les gestes précis de nos artisans et l'art du dosage.</p>
+                    </div>
+                    <div class="value-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-icon"><i class="fas fa-sun"></i></div>
+                        <h3 class="value-title">Saisons & Émotions</h3>
+                        <p class="value-text">Comment choisir sa fragrance selon les moments de la journée.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== PRODUCT DETAIL PAGE ==================== -->
+    <div id="page-product" class="page">
+        <section class="product-detail-section">
+            <div class="container">
+                <span class="back-btn" onclick="showPage('collection')">
+                    <i class="fas fa-arrow-left"></i> Retour à la Collection
+                </span>
+
+                <div class="product-detail-grid">
+                    <div class="product-gallery">
+                        <img id="productMainImage" src="" alt="" class="main-image">
+                    </div>
+
+                    <div class="product-detail-info">
+                        <div class="product-detail-category" id="productCategory">Homme</div>
+                        <h1 class="product-detail-name" id="productName">Nom du Produit</h1>
+                        <div class="product-detail-price" id="productPrice">1,200 DH</div>
+
+                        <div class="size-selector" style="margin-top: 20px;">
+                            <label>Taille</label>
+                            <div class="size-options">
+                                <div class="size-option" onclick="selectSize(this, 50)">50ml</div>
+                                <div class="size-option active" onclick="selectSize(this, 75)">75ml</div>
+                                <div class="size-option" onclick="selectSize(this, 100)">100ml</div>
+                            </div>
+                        </div>
+                        
+                        <p class="product-detail-description" id="productDescription" style="margin-top: 30px;">
+                            Un parfum d'exception qui allie élégance et caractère. 
+                            Créé par nos maîtres parfumeurs avec les ingrédients les plus nobles, 
+                            cette fragrance vous accompagnera tout au long de la journée.
+                        </p>
+
+                        <div class="product-notes">
+                            <h4>Notes Olfactives</h4>
+                            <div class="notes-list">
+                                <div class="note-item">
+                                    <span class="note-label">Notes de Tête</span>
+                                    <span class="note-value" id="topNotes">Bergamote, Citron, Poivre</span>
+                                </div>
+                                <div class="note-item">
+                                    <span class="note-label">Notes de Cœur</span>
+                                    <span class="note-value" id="heartNotes">Rose, Jasmin, Iris</span>
+                                </div>
+                                <div class="note-item">
+                                    <span class="note-label">Notes de Fond</span>
+                                    <span class="note-value" id="baseNotes">Vanille, Musc, Bois de Santal</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quantity-selector">
+                            <label>Quantité</label>
+                            <div class="quantity-control">
+                                <button onclick="updateQuantity(-1)">-</button>
+                                <span id="productQuantity">1</span>
+                                <button onclick="updateQuantity(1)">+</button>
+                            </div>
+                        </div>
+
+                        <button class="add-to-cart-btn" onclick="addProductToCart()">
+                            <i class="fas fa-shopping-bag"></i> Ajouter au Panier
+                        </button>
+                        <button class="wishlist-btn">
+                            <i class="far fa-heart"></i> Ajouter aux Favoris
+                        </button>
+
+                        <div class="product-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-truck"></i>
+                                Livraison gratuite à partir de 500 DH
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-undo"></i>
+                                Retours gratuits sous 14 jours
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-shield-alt"></i>
+                                Authenticité garantie
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== CART PAGE ==================== -->
+    <div id="page-cart" class="page">
+        <div class="cart-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / PANIER</div>
+                <h1 class="about-hero-title">Votre Panier</h1>
+            </div>
+        </div>
+
+        <section class="cart-section">
+            <div class="container">
+                <div class="cart-container">
+                    <div class="cart-items" id="cartItems">
+                        <h3>Articles (<span id="cartItemCount">0</span>)</h3>
+                        <div id="cartItemsList">
+                            <!-- Cart items will be loaded dynamically -->
+                        </div>
+                    </div>
+
+                    <div class="cart-summary">
+                        <h3>Récapitulatif</h3>
+                        <div class="summary-row">
+                            <span>Sous-total</span>
+                            <span id="subtotal">0 DH</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Livraison</span>
+                            <span id="shipping">Gratuit</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span id="total">0 DH</span>
+                        </div>
+
+                        <div class="promo-code">
+                            <div class="promo-input">
+                                <input type="text" placeholder="Code promo">
+                                <button>Appliquer</button>
+                            </div>
+                        </div>
+
+                        <button class="checkout-btn" onclick="showPage('checkout')">
+                            Passer la Commande
+                        </button>
+                        <span class="continue-shopping" onclick="showPage('collection')">
+                            Continuer mes achats
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== CHECKOUT PAGE ==================== -->
+    <div id="page-checkout" class="page">
+        <section class="checkout-section">
+            <div class="container">
+                <span class="back-btn" onclick="showPage('cart')">
+                    <i class="fas fa-arrow-left"></i> Retour au Panier
+                </span>
+
+                <div class="checkout-grid">
+                    <div class="checkout-form">
+                        <h3>Informations de Livraison</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Prénom</label>
+                                <input type="text" class="form-control-elegant" placeholder="Votre prénom">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Nom</label>
+                                <input type="text" class="form-control-elegant" placeholder="Votre nom">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control-elegant" placeholder="votre@email.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Téléphone</label>
+                            <input type="tel" class="form-control-elegant" placeholder="+212 6XX XXX XXX">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Adresse</label>
+                            <input type="text" class="form-control-elegant" placeholder="Votre adresse complète">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Ville</label>
+                                <input type="text" class="form-control-elegant" placeholder="Ville">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Code Postal</label>
+                                <input type="text" class="form-control-elegant" placeholder="Code postal">
+                            </div>
+                        </div>
+
+                        <h3 style="margin-top: 40px;">Mode de Paiement</h3>
+                        
+                        <div class="payment-methods">
+                            <label class="payment-method-card" onclick="selectPaymentMethod('cod')">
+                                <input type="radio" name="payment" value="cod" checked>
+                                <div class="payment-method-content">
+                                    <div class="payment-method-icon">
+                                        <i class="fas fa-money-bill-wave"></i>
+                                    </div>
+                                    <div class="payment-method-info">
+                                        <span class="payment-method-title">Paiement à la livraison</span>
+                                        <span class="payment-method-desc">Payez en espèces à la réception</span>
+                                    </div>
+                                    <div class="payment-check"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                            </label>
+                            
+                            <label class="payment-method-card" onclick="selectPaymentMethod('card')">
+                                <input type="radio" name="payment" value="card">
+                                <div class="payment-method-content">
+                                    <div class="payment-method-icon">
+                                        <i class="fas fa-credit-card"></i>
+                                    </div>
+                                    <div class="payment-method-info">
+                                        <span class="payment-method-title">Carte Bancaire</span>
+                                        <span class="payment-method-desc">Visa, Mastercard, Amex</span>
+                                    </div>
+                                    <div class="payment-cards-icons">
+                                        <img src="https://imgs.search.brave.com/pKHaGYTO06joZhsf5tCg4qi83UmVs_exaNk-9y1DTCk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LXZpc2EtaWNvbi1z/dmctZG93bmxvYWQt/cG5nLTIyNjQ2MC5w/bmc_Zj13ZWJwJnc9/MTI4" alt="Visa" class="card-icon">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt="Mastercard" class="card-icon">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/American_Express_logo_%282018%29.svg" alt="Amex" class="card-icon amex">
+                                    </div>
+                                    <div class="payment-check"><i class="fas fa-check-circle"></i></div>
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Card Payment Form (Hidden by default) -->
+                        <div class="card-payment-form" id="cardPaymentForm" style="display: none;">
+                            <div class="card-form-header">
+                                <i class="fas fa-lock"></i>
+                                <span>Paiement Sécurisé SSL</span>
+                            </div>
+                            
+                            <!-- Card Preview -->
+                            <div class="credit-card-preview">
+                                <div class="card-preview-front">
+                                    <div class="card-chip">
+                                        <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" alt="chip">
+                                    </div>
+                                    <div class="card-type-icon" id="cardTypeIcon">
+                                        <i class="fab fa-cc-visa"></i>
+                                    </div>
+                                    <div class="card-number-preview" id="cardNumberPreview">•••• •••• •••• ••••</div>
+                                    <div class="card-info-preview">
+                                        <div class="card-holder-preview">
+                                            <span class="label">Titulaire</span>
+                                            <span class="value" id="cardHolderPreview">VOTRE NOM</span>
+                                        </div>
+                                        <div class="card-expiry-preview">
+                                            <span class="label">Expire</span>
+                                            <span class="value" id="cardExpiryPreview">MM/AA</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Numéro de Carte *</label>
+                                <div class="card-input-wrapper">
+                                    <input type="text" class="form-control-elegant card-number-input" 
+                                           id="cardNumber" 
+                                           placeholder="1234 5678 9012 3456" 
+                                           maxlength="19"
+                                           oninput="formatCardNumber(this)"
+                                           onkeyup="updateCardPreview()">
+                                    <div class="card-type-indicator" id="cardTypeIndicator"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Nom sur la Carte *</label>
+                                <input type="text" class="form-control-elegant" 
+                                       id="cardHolder" 
+                                       placeholder="JEAN DUPONT"
+                                       oninput="this.value = this.value.toUpperCase(); updateCardPreview()">
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label class="form-label">Date d'Expiration *</label>
+                                    <div class="expiry-inputs">
+                                        <select class="form-control-elegant" id="expiryMonth" onchange="updateCardPreview()">
+                                            <option value="">Mois</option>
+                                            <option value="01">01</option>
+                                            <option value="02">02</option>
+                                            <option value="03">03</option>
+                                            <option value="04">04</option>
+                                            <option value="05">05</option>
+                                            <option value="06">06</option>
+                                            <option value="07">07</option>
+                                            <option value="08">08</option>
+                                            <option value="09">09</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        <span class="expiry-separator">/</span>
+                                        <select class="form-control-elegant" id="expiryYear" onchange="updateCardPreview()">
+                                            <option value="">Année</option>
+                                            <option value="24">2024</option>
+                                            <option value="25">2025</option>
+                                            <option value="26">2026</option>
+                                            <option value="27">2027</option>
+                                            <option value="28">2028</option>
+                                            <option value="29">2029</option>
+                                            <option value="30">2030</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">CVV *</label>
+                                    <div class="cvv-input-wrapper">
+                                        <input type="password" class="form-control-elegant" 
+                                               id="cardCVV" 
+                                               placeholder="•••" 
+                                               maxlength="4"
+                                               oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                                        <div class="cvv-tooltip">
+                                            <i class="fas fa-question-circle"></i>
+                                            <div class="cvv-tooltip-content">
+                                                <img src="https://www.pngitem.com/pimgs/m/291-2918799_cvv-png-transparent-png.png" alt="CVV">
+                                                <p>Les 3 chiffres au dos de votre carte</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="save-card-option">
+                                <label class="checkbox-elegant">
+                                    <input type="checkbox" id="saveCard">
+                                    <span class="checkmark"></span>
+                                    <span>Sauvegarder cette carte pour les prochains achats</span>
+                                </label>
+                            </div>
+
+                            <div class="security-badges">
+                                <div class="security-badge">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>Paiement 100% Sécurisé</span>
+                                </div>
+                                <div class="security-badge">
+                                    <i class="fas fa-lock"></i>
+                                    <span>Cryptage SSL 256-bit</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="checkout-btn" style="margin-top: 30px;" onclick="placeOrder()">
+                            <span id="checkoutBtnText">Confirmer la Commande</span>
+                            <span id="checkoutBtnLoading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Traitement en cours...
+                            </span>
+                        </button>
+
+                        <div class="checkout-secure-note">
+                            <i class="fas fa-lock"></i>
+                            Vos informations sont protégées par un cryptage SSL 256-bit
+                        </div>
+                    </div>
+
+                    <div class="order-summary">
+                        <h3>Votre Commande</h3>
+                        <div id="orderItems">
+                          
+                        </div>
+                        <div class="summary-row" style="margin-top: 20px;">
+                            <span>Sous-total</span>
+                            <span id="checkoutSubtotal">0 DH</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Livraison</span>
+                            <span>Gratuit</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Total</span>
+                            <span id="checkoutTotal">0 DH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- ==================== CONTACT PAGE ==================== -->
+    <div id="page-contact" class="page">
+        <div class="contact-hero">
+            <div class="about-hero-content">
+                <div class="page-breadcrumb">ACCUEIL / CONTACT</div>
+                <h1 class="about-hero-title">Contactez-Nous</h1>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <h3>Restons en Contact</h3>
+                        <p>
+                            Nous serions ravis de vous entendre. Que vous ayez une question sur nos produits, 
+                            une demande spéciale, ou que vous souhaitiez simplement nous dire bonjour, 
+                            n'hésitez pas à nous contacter.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="contact-item-content">
+                                    <h4>Adresse</h4>
+                                    <p>Hay Benkirane, Tanger, Maroc</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div class="contact-item-content">
+                                    <h4>Téléphone</h4>
+                                    <p>+212 6 45 38 96 10</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div class="contact-item-content">
+                                    <h4>Email</h4>
+                                    <p>nawfalbn265@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div class="contact-item-content">
+                                    <h4>Horaires</h4>
+                                    <p>Lun - Sam: 9h00 - 22h00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-elegant">
+                            <a href="https://www.instagram.com/nawfal_bn1/" class="social-link-elegant"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link-elegant"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link-elegant"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container" data-aos="fade-left">
+                        <h3>Envoyez-nous un Message</h3>
+                        <form onsubmit="submitContactForm(event)">
+                            <div class="form-group">
+                                <label class="form-label">Nom Complet</label>
+                                <input type="text" class="form-control-elegant" placeholder="Votre nom" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control-elegant" placeholder="votre@email.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Sujet</label>
+                                <input type="text" class="form-control-elegant" placeholder="Sujet de votre message">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control-elegant" placeholder="Votre message..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary-elegant" style="width: 100%; text-align: center;">
+                                Envoyer le Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="map-container">
+            <iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.0!2d-5.8!3d35.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ2JzQ4LjAiTiA1wrA0OCcwMC4wIlc!5e0!3m2!1sfr!2sma!4v1234567890" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-elegant">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-logo-elegant">NAWFAL</div>
+                    <p class="footer-text-elegant">
+                        Maison de parfumerie depuis 1892. 
+                        L'art de la création olfactive au service de l'élégance intemporelle.
+                    </p>
+                    <div class="social-elegant">
+                        <a href="https://www.instagram.com/nawfal_bn1/" class="social-link-elegant"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link-elegant"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link-elegant"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link-elegant"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 class="footer-title-elegant">Navigation</h4>
+                    <span class="footer-link-elegant" onclick="showPage('home')">Accueil</span>
+                    <span class="footer-link-elegant" onclick="showPage('about')">À Propos</span>
+                    <span class="footer-link-elegant" onclick="showPage('maison')">Maison</span>
+                    <span class="footer-link-elegant" onclick="showPage('collection')">Collection</span>
+                    <span class="footer-link-elegant" onclick="showPage('journal')">Journal</span>
+                    <span class="footer-link-elegant" onclick="showPage('contact')">Contact</span>
+                    <span class="footer-link-elegant" onclick="showPage('cart')">Panier</span>
+                </div>
+
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h4 class="footer-title-elegant">Contact</h4>
+                    <p class="footer-text-elegant">
+                        Hay Benkirane<br>
+                        Tanger, Maroc<br><br>
+                        +212 6 45 38 96 10<br>
+                        nawfalbn265@gmail.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom-elegant">
+                <p>&copy; 2026 Fragrance by Nawfal. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    </div>
+
+    <!-- Mobile App Bottom Navigation -->
+    <nav class="mobile-app-nav">
+        <a href="#" class="mobile-nav-item active" onclick="showPage('home')">
+            <i class="fas fa-home"></i>
+            <span>Accueil</span>
+        </a>
+        <a href="#" class="mobile-nav-item" onclick="openSearch()">
+            <i class="fas fa-search"></i>
+            <span>Recherche</span>
+        </a>
+        <a href="#" class="mobile-nav-item" onclick="showPage('collection')">
+            <i class="fas fa-box-open"></i>
+            <span>Boutique</span>
+        </a>
+        <a href="#" class="mobile-nav-item" onclick="showPage('cart')">
+            <div class="cart-icon-wrapper">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="mobile-cart-badge" id="mobileCartCount">0</span>
+            </div>
+            <span>Panier</span>
+        </a>
+        <a href="#" class="mobile-nav-item" onclick="toggleMobileMenu()">
+            <i class="fas fa-bars"></i>
+            <span>Menu</span>
+        </a>
+    </nav>
+
+    <!-- Scroll to Top -->
+    <div class="scroll-top-elegant" id="scrollTopElegant">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        // Products Data
+        const products = [
+            { id: 0, name: "Stronger With You Absolutely", category: "homme", price: 1200, image: "https://twinfragrance.shop/cdn/shop/files/CF7E2B33-92F8-4D68-813D-4304302E703A.png?v=1759791920&width=493", topNotes: "Bergamote, Poivre Rose", heartNotes: "Lavande, Iris", baseNotes: "Vanille, Musc" },
+            { id: 1, name: "Stronger With You Intensly", category: "homme", price: 1000, image: "https://twinfragrance.shop/cdn/shop/files/976A07B6-F724-4DC9-BBBD-7FBAC1D87F1B.png?v=1759527226&width=493", topNotes: "Cannelle, Poivre Rose", heartNotes: "Lavande, Sauge", baseNotes: "Ambre, Caramel" },
+            { id: 2, name: "Stronger With You Sandalwood", category: "homme", price: 1300, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0953.png?v=1759792437&width=493", topNotes: "Cardamome, Bergamote", heartNotes: "Bois de Santal", baseNotes: "Vanille, Tonka" },
+            { id: 3, name: "Imagination Louis Vuitton", category: "homme", price: 3500, image: "https://twinfragrance.shop/cdn/shop/files/DC87325B-42C6-409E-B1BF-284FF742B639.png?v=1759527291&width=493", topNotes: "Citron de Sicile, Bergamote", heartNotes: "Fleur d'Oranger", baseNotes: "Bois de Cèdre, Musc" },
+            { id: 4, name: "Le Male Elixir", category: "homme", price: 1300, image: "https://twinfragrance.shop/cdn/shop/files/62CB45CC-CD17-4115-B8C2-5675C0340C51.png?v=1759791931&width=493", topNotes: "Lavande, Menthe", heartNotes: "Vanille, Fève Tonka", baseNotes: "Ambre, Bois" },
+            { id: 5, name: "Xerjoff Naxos", category: "homme", price: 2500, image: "https://twinfragrance.shop/cdn/shop/files/B8D74FC5-6E93-43E7-990E-3FA5FBDF297E.png?v=1759792410&width=493", topNotes: "Bergamote, Citron, Lavande", heartNotes: "Miel, Cannelle", baseNotes: "Tabac, Vanille, Cachemire" },
+            { id: 6, name: "Bianco Latte", category: "femme", price: 1400, image: "https://twinfragrance.shop/cdn/shop/files/E5D46AD7-B2BB-48C3-BD5D-D39890149851.png?v=1759693640&width=493", topNotes: "Lait, Bergamote", heartNotes: "Jasmin, Rose", baseNotes: "Vanille, Musc Blanc" },
+            { id: 7, name: "Kayali Vanille 28", category: "femme", price: 2000, image: "https://twinfragrance.shop/cdn/shop/files/IMG-8923.jpg?v=1762167701&width=493", topNotes: "Gardenia", heartNotes: "Vanille de Madagascar", baseNotes: "Bois de Santal, Musc" },
+            { id: 8, name: "La Belle EDP", category: "femme", price: 1400, image: "https://twinfragrance.shop/cdn/shop/files/WhatsAppImage2025-10-09a11.18.30_bddfe459.jpg?v=1760005130&width=493", topNotes: "Poire, Bergamote", heartNotes: "Jasmin, Iris", baseNotes: "Vanille, Bois de Cachemire" },
+            { id: 9, name: "L'interdit Rouge", category: "femme", price: 1300, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0992.png?v=1759793597&width=493", topNotes: "Orange Sanguine", heartNotes: "Jasmin Rouge, Vétiver", baseNotes: "Musc, Santal" },
+            { id: 10, name: "Belle Intense", category: "femme", price: 1500, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0964.png?v=1759792906&width=493", topNotes: "Poire, Bergamote", heartNotes: "Tubéreuse, Iris", baseNotes: "Vanille Intense" },
+            { id: 11, name: "Creed Aventus", category: "homme", price: 3800, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0967.png?v=1759792952&width=493", topNotes: "Ananas, Cassis, Pomme", heartNotes: "Bouleau, Patchouli", baseNotes: "Musc, Chêne, Ambre Gris" },
+            { id: 12, name: "YSL Myself EDP", category: "homme", price: 1500, image: "https://twinfragrance.shop/cdn/shop/files/0EDE9CD5-96CC-441A-8882-C4D817AEDA64.png?v=1759791959&width=493", topNotes: "Bergamote, Fleur d'Oranger", heartNotes: "Cœur de Bois", baseNotes: "Vétiver, Patchouli" },
+            { id: 13, name: "Prada Paradox", category: "femme", price: 1500, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0993.png?v=1759793618&width=493", topNotes: "Néroli, Bergamote", heartNotes: "Jasmin, Fleur d'Oranger", baseNotes: "Ambre, Musc" },
+            { id: 14, name: "Erba Pura", category: "homme", price: 3800, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0970.png?v=1759792991&width=493", topNotes: "Orange, Citron, Bergamote", heartNotes: "Fruits Blancs", baseNotes: "Muscs Blancs, Ambre" },
+            { id: 15, name: "YSL Libre Intense", category: "femme", price: 1500, image: "https://twinfragrance.shop/cdn/shop/files/BBFC2BBD-BBDD-4698-AB96-7D19CB51AF25.png?v=1759792024&width=493", topNotes: "Lavande, Mandarine", heartNotes: "Fleur d'Oranger, Jasmin", baseNotes: "Vanille, Cèdre" },
+            { id: 16, name: "Le Beau Flower", category: "homme", price: 1600, image: "https://twinfragrance.shop/cdn/shop/files/IMG-0968.png?v=1759792965&width=493", topNotes: "Coco, Bergamote", heartNotes: "Tubéreuse", baseNotes: "Bois de Santal, Vanille" },
+            { id: 17, name: "Bianco Latte Homme", category: "homme", price: 1400, image: "https://twinfragrance.shop/cdn/shop/files/F74723B9-D245-4CFC-AA6D-22026394F47C.png?v=1759525346&width=493", topNotes: "Lait, Bergamote", heartNotes: "Lavande, Sauge", baseNotes: "Vanille, Musc" },
+            { id: 18, name: "Rouge Malachite", category: "femme", price: 3500, image: "https://twinfragrance.shop/cdn/shop/files/5172631C-9D80-4817-AC04-3E694155C1E9.png?v=1759693568&width=493", topNotes: "Rose Turque, Cyprès", heartNotes: "Encens, Oud", baseNotes: "Ambre, Musc" },
+            { id: 19, name: "Hypnotic Poison", category: "femme", price: 1000, image: "https://twinfragrance.shop/cdn/shop/files/EF9F354F-8963-4B3E-8D7D-09A6C148F2E6.png?v=1759693589&width=493", topNotes: "Abricot, Prune", heartNotes: "Jasmin, Rose, Muguet", baseNotes: "Vanille, Musc, Bois de Santal" },
+            { id: 20, name: "L'Atelier - Édition Limitée", category: "homme", price: 4500, image: "https://www.bing.com/th/id/OIG2.Z28F3T2T5eX5fskCXQ4N?w=540&h=540&c=6&r=0&o=5&pid=ImgGn", topNotes: "Safran Marocain, Bergamote de Calabre, Poivre Noir", heartNotes: "Rose de Damas, Iris Pallida, Jasmin Sambac", baseNotes: "Oud du Laos, Ambre Gris, Musc Blanc", limited: true },
+            { id: 21, name: "L'Or Noir - Signature", category: "homme", price: 2800, image: "https://www.bing.com/th/id/OIG1.mBMG3jkbAnP9rEMp1dSP?w=540&h=540&c=6&r=0&o=5&cb=thfvnext&pid=ImgGn", topNotes: "Bergamote de Calabre, Poivre Rose, Cardamome", heartNotes: "Iris de Florence, Rose de Damas, Jasmin Absolu", baseNotes: "Oud Cambodgien, Vanille Bourbon, Ambre Gris", signature: true }
+        ];
+
+        // Cart
+        let cart = [];
+        let currentProductIndex = 0;
+        let selectedQuantity = 1;
+        let selectedSize = 75;
+        let activeCollectionFilter = 'all';
+        let activeSearchQuery = '';
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({ duration: 800, once: true, offset: 100 });
+            loadProducts();
+            updateCart();
+            renderSearchResults();
+        });
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeSearch();
+            }
+        });
+
+        // Loading Screen
+        window.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.getElementById('loadingScreen').classList.add('hidden');
+            }, 1200);
+        });
+
+        // Navigation
+        function showPage(pageId) {
+            document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+            document.getElementById('page-' + pageId).classList.add('active');
+            
+            document.querySelectorAll('.nav-link-elegant').forEach(link => link.classList.remove('active'));
+            document.querySelectorAll('.nav-link-elegant').forEach(link => {
+                if (link.dataset.page === pageId) {
+                    link.classList.add('active');
+                }
+            });
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            if (pageId === 'collection') loadProducts();
+            if (pageId === 'cart') renderCart();
+            if (pageId === 'checkout') renderCheckout();
+            
+            // Close mobile menu
+            document.getElementById('navMenu').classList.remove('active');
+            closeSearch();
+            
+            AOS.refresh();
+        }
+
+        function normalizeSearchValue(value) {
+            return (value || '')
+                .toLowerCase()
+                .normalize('NFD')
+                .replace(/[\u0300-\u036f]/g, '');
+        }
+
+        function getSearchMatches(query = '', filter = 'all') {
+            const normalizedQuery = normalizeSearchValue(query.trim());
+
+            return products
+                .map((product, index) => ({ product, index }))
+                .filter(({ product }) => {
+                    const matchesFilter = filter === 'all' || product.category === filter;
+                    if (!matchesFilter) return false;
+                    if (!normalizedQuery) return true;
+
+                    const haystack = [
+                        product.name,
+                        product.category,
+                        product.topNotes,
+                        product.heartNotes,
+                        product.baseNotes
+                    ]
+                        .map(normalizeSearchValue)
+                        .join(' ');
+
+                    return haystack.includes(normalizedQuery);
+                });
+        }
+
+        function openSearch() {
+            const overlay = document.getElementById('searchOverlay');
+            if (!overlay) return;
+
+            overlay.classList.add('active');
+            document.body.classList.add('search-open');
+            renderSearchResults(activeSearchQuery);
+
+            const input = document.getElementById('searchInput');
+            if (input) {
+                input.value = activeSearchQuery;
+                setTimeout(() => input.focus(), 30);
+            }
+        }
+
+        function closeSearch(event) {
+            if (event && event.target && event.target.id !== 'searchOverlay') return;
+
+            const overlay = document.getElementById('searchOverlay');
+            if (!overlay) return;
+
+            overlay.classList.remove('active');
+            document.body.classList.remove('search-open');
+        }
+
+        function clearSearch() {
+            activeSearchQuery = '';
+            const input = document.getElementById('searchInput');
+            if (input) {
+                input.value = '';
+                input.focus();
+            }
+            renderSearchResults('');
+        }
+
+        function handleSearchInput(value) {
+            activeSearchQuery = value.trim();
+            renderSearchResults(activeSearchQuery);
+        }
+
+        function openProductFromSearch(index) {
+            closeSearch();
+            showProductDetail(index);
+        }
+
+        function openSearchCollection() {
+            activeCollectionFilter = 'all';
+            closeSearch();
+            showPage('collection');
+            loadProducts(activeCollectionFilter, activeSearchQuery);
+        }
+
+        function renderSearchResults(query = '') {
+            const resultsHost = document.getElementById('searchResultsList');
+            const moreButton = document.getElementById('searchMoreResults');
+            const closeButton = document.querySelector('.search-close-elegant');
+            if (!resultsHost || !moreButton) return;
+
+            const trimmedQuery = query.trim();
+            const allResults = getSearchMatches(trimmedQuery);
+            const visibleResults = (trimmedQuery ? allResults : allResults.slice(0, 4)).slice(0, 4);
+
+            if (closeButton) {
+                closeButton.innerHTML = trimmedQuery
+                    ? '<i class="fas fa-times"></i>'
+                    : '<i class="fas fa-times"></i>';
+                closeButton.setAttribute('onclick', trimmedQuery ? 'clearSearch()' : 'closeSearch()');
+            }
+
+            resultsHost.innerHTML = visibleResults.map(({ product, index }) => `
+                <button class="search-result-item" onclick="openProductFromSearch(${index})">
+                    <div class="search-result-thumb">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div class="search-result-copy">
+                        <strong>${product.name}</strong>
+                        <span>${product.price.toLocaleString()} DH</span>
+                    </div>
+                </button>
+            `).join('');
+
+            if (!visibleResults.length) {
+                resultsHost.innerHTML = `
+                    <div class="search-empty-state">
+                <strong>Aucun parfum trouve</strong>
+                        <p>Essayez un autre nom ou une autre note olfactive.</p>
+                    </div>
+                `;
+            }
+
+            if (!trimmedQuery) {
+                moreButton.textContent = 'Voir toute la collection';
+                moreButton.style.display = 'block';
+            } else if (allResults.length > 4) {
+                moreButton.textContent = `Voir ${allResults.length - 4} autres resultats`;
+                moreButton.style.display = 'block';
+            } else if (allResults.length > 0) {
+                moreButton.textContent = 'Voir tous les resultats';
+                moreButton.style.display = 'block';
+            } else {
+                moreButton.style.display = 'none';
+            }
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('navMenu').classList.toggle('active');
+        }
+
+        function scrollToSection(sectionId) {
+            showPage('home');
+            setTimeout(() => {
+                document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+
+        // Products
+        function createProductCard(product, index) {
+            return `
+                <div class="product-card-elegant ${product.category}" data-aos="fade-up">
+                    <img src="${product.image}" alt="${product.name}" class="product-image-elegant" style="width:100% !important;max-height:320px !important;object-fit:contain !important;background:#f7f4ee !important;padding:28px !important;border-radius:20px !important;" onclick="showProductDetail(${index})">
+                    <div class="product-info-elegant">
+                        <div class="product-category-elegant">${product.category === 'homme' ? 'Homme' : 'Femme'}</div>
+                        <h3 class="product-name-elegant">${product.name}</h3>
+                        <div class="product-price-elegant">${product.price.toLocaleString()} DH</div>
+                        <button class="product-btn-elegant" onclick="addToCart(${index})">Ajouter au Panier</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function loadProducts(filter = 'all', query = '') {
+            const grid = document.getElementById('productsGrid');
+            if (!grid) return;
+
+            activeCollectionFilter = filter;
+            activeSearchQuery = query.trim();
+
+            document.querySelectorAll('.filter-btn-elegant').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === activeCollectionFilter);
+            });
+
+            const matches = getSearchMatches(activeSearchQuery, activeCollectionFilter);
+
+            if (!matches.length) {
+                grid.innerHTML = `
+                    <div class="collection-empty-state">
+                        <strong>Aucun parfum trouvÃ©</strong>
+                        <p>Essayez une autre recherche ou changez le filtre de collection.</p>
+                    </div>
+                `;
+                AOS.refresh();
+                return;
+            }
+
+            grid.innerHTML = matches
+                .map(({ product, index }) => createProductCard(product, index))
+                .join('');
+
+            AOS.refresh();
+        }
+
+        function filterCollection(category, event) {
+            document.querySelectorAll('.filter-btn-elegant').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            loadProducts(category, activeSearchQuery);
+        }
+
+        // Product Detail
+        function showProductDetail(index) {
+            currentProductIndex = index;
+            selectedQuantity = 1;
+            const product = products[index];
+            
+            document.getElementById('productMainImage').src = product.image;
+            document.getElementById('productCategory').textContent = product.category === 'homme' ? 'Homme' : 'Femme';
+            document.getElementById('productName').textContent = product.name;
+            document.getElementById('productPrice').textContent = product.price.toLocaleString() + ' DH';
+            document.getElementById('topNotes').textContent = product.topNotes;
+            document.getElementById('heartNotes').textContent = product.heartNotes;
+            document.getElementById('baseNotes').textContent = product.baseNotes;
+            document.getElementById('productQuantity').textContent = '1';
+            
+            showPage('product');
+        }
+
+        function selectSize(el, size) {
+            document.querySelectorAll('.size-option').forEach(opt => opt.classList.remove('active'));
+            el.classList.add('active');
+            selectedSize = size;
+        }
+
+        function updateQuantity(change) {
+            selectedQuantity = Math.max(1, selectedQuantity + change);
+            document.getElementById('productQuantity').textContent = selectedQuantity;
+        }
+
+        function addProductToCart() {
+            const product = products[currentProductIndex];
+            const existingItem = cart.find(item => item.id === product.id && item.size === selectedSize);
+            
+            if (existingItem) {
+                existingItem.quantity += selectedQuantity;
+            } else {
+                cart.push({
+                    id: product.id,
+                    name: product.name,
+                    price: product.price,
+                    image: product.image,
+                    category: product.category,
+                    size: selectedSize,
+                    quantity: selectedQuantity
+                });
+            }
+            
+            updateCart();
+            showSuccessMessage();
+        }
+
+        // Cart
+        function addToCart(index) {
+            const product = products[index];
+            const existingItem = cart.find(item => item.id === product.id && item.size === 75);
+            
+            if (existingItem) {
+                existingItem.quantity++;
+            } else {
+                cart.push({
+                    id: product.id,
+                    name: product.name,
+                    price: product.price,
+                    image: product.image,
+                    category: product.category,
+                    size: 75,
+                    quantity: 1
+                });
+            }
+            
+            updateCart();
+            showSuccessMessage();
+        }
+
+        function updateCart() {
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartCount').textContent = totalItems;
+            
+            const mobileCartCount = document.getElementById('mobileCartCount');
+            if (mobileCartCount) {
+                mobileCartCount.textContent = totalItems;
+            }
+        }
+
+        function renderCart() {
+            const cartList = document.getElementById('cartItemsList');
+            const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+            document.getElementById('cartItemCount').textContent = totalItems;
+            
+            if (cart.length === 0) {
+                cartList.innerHTML = `
+                    <div class="cart-empty">
+                        <i class="fas fa-shopping-bag"></i>
+                        <h4>Votre panier est vide</h4>
+                        <p>Découvrez notre collection de parfums d'exception</p>
+                        <span onclick="showPage('collection')" class="btn-primary-elegant">Voir la Collection</span>
+                    </div>
+                `;
+            } else {
+                cartList.innerHTML = cart.map((item, index) => `
+                    <div class="cart-item">
+                        <img src="${item.image}" alt="${item.name}" class="cart-item-image" style="width:80px !important;height:80px !important;max-width:80px !important;max-height:80px !important;object-fit:cover !important;">
+                        <div class="cart-item-details">
+                            <h4>${item.name}</h4>
+                            <p>${item.category === 'homme' ? 'Homme' : 'Femme'} - ${item.size}ml</p>
+                        </div>
+                        <div class="cart-item-quantity">
+                            <button class="qty-btn" onclick="changeCartQty(${index}, -1)">-</button>
+                            <span>${item.quantity}</span>
+                            <button class="qty-btn" onclick="changeCartQty(${index}, 1)">+</button>
+                        </div>
+                        <div class="cart-item-price">${(item.price * item.quantity).toLocaleString()} DH</div>
+                        <i class="fas fa-trash remove-item" onclick="removeFromCart(${index})"></i>
+                    </div>
+                `).join('');
+            }
+            
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            document.getElementById('subtotal').textContent = subtotal.toLocaleString() + ' DH';
+            document.getElementById('total').textContent = subtotal.toLocaleString() + ' DH';
+        }
+
+        function changeCartQty(index, change) {
+            cart[index].quantity += change;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCart();
+            renderCart();
+        }
+
+        function removeFromCart(index) {
+            cart.splice(index, 1);
+            updateCart();
+            renderCart();
+        }
+
+        function renderCheckout() {
+            const orderItems = document.getElementById('orderItems');
+            orderItems.innerHTML = cart.map(item => `
+                <div class="order-item">
+                    <img src="${item.image}" alt="${item.name}" class="order-item-image" style="width:80px !important;height:80px !important;max-width:80px !important;max-height:80px !important;object-fit:cover !important;">
+                    <div class="order-item-details">
+                        <h4>${item.name}</h4>
+                        <p>${item.size}ml × ${item.quantity}</p>
+                    </div>
+                    <div class="order-item-price">${(item.price * item.quantity).toLocaleString()} DH</div>
+                </div>
+            `).join('');
+            
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            document.getElementById('checkoutSubtotal').textContent = subtotal.toLocaleString() + ' DH';
+            document.getElementById('checkoutTotal').textContent = subtotal.toLocaleString() + ' DH';
+        }
+
+        function placeOrder() {
+            // Rate limiting check
+            if (!SecurityValidator.rateLimiter.check('checkout')) {
+                return;
+            }
+            
+            // Get form data
+            const form = document.querySelector('.checkout-form');
+            const firstName = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Votre prénom"]').value);
+            const lastName = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Votre nom"]').value);
+            const email = SecurityValidator.sanitizeString(form.querySelector('input[type="email"]').value);
+            const phone = SecurityValidator.sanitizeString(form.querySelector('input[type="tel"]').value);
+            const address = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Votre adresse complète"]').value);
+            const city = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Ville"]').value);
+            const postalCode = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Code postal"]').value);
+            
+            // Validate all fields with detailed error messages
+            const errors = [];
+            
+            if (!SecurityValidator.validateName(firstName)) {
+                errors.push('Prénom invalide (2-100 caractères, lettres uniquement)');
+            }
+            
+            if (!SecurityValidator.validateName(lastName)) {
+                errors.push('Nom invalide (2-100 caractères, lettres uniquement)');
+            }
+            
+            if (!SecurityValidator.validateEmail(email)) {
+                errors.push('Email invalide (format: exemple@domaine.com)');
+            }
+            
+            if (!SecurityValidator.validatePhone(phone)) {
+                errors.push('Téléphone invalide (format: +212 6XX XXX XXX ou 06XX XXX XXX)');
+            }
+            
+            if (!SecurityValidator.validateAddress(address)) {
+                errors.push('Adresse invalide (10-500 caractères)');
+            }
+            
+            if (!SecurityValidator.validateCity(city)) {
+                errors.push('Ville invalide (2-100 caractères)');
+            }
+            
+            if (postalCode && !SecurityValidator.validatePostalCode(postalCode)) {
+                errors.push('Code postal invalide (5 chiffres)');
+            }
+            
+            if (cart.length === 0) {
+                errors.push('Votre panier est vide');
+            }
+            
+            // Show all errors if any
+            if (errors.length > 0) {
+                alert('Erreurs de validation:\n\n• ' + errors.join('\n• '));
+                return;
+            }
+            
+            // All validated - proceed
+            // In production, send to secure API endpoint
+            console.log('Order validated:', {
+                customer: { firstName, lastName, email, phone },
+                shipping: { address, city, postalCode },
+                items: cart.map(item => ({
+                    id: item.id,
+                    name: SecurityValidator.escapeHtml(item.name),
+                    quantity: item.quantity,
+                    price: item.price
+                })),
+                total: cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
+            });
+            
+            // Reset rate limiter on success
+            SecurityValidator.rateLimiter.reset('checkout');
+            
+            alert('Merci pour votre commande! Vous recevrez une confirmation par email.');
+            cart = [];
+            updateCart();
+            showPage('home');
+        }
+
+        // UI Helpers
+        function showSuccessMessage() {
+            const msg = document.getElementById('successMessage');
+            msg.classList.add('show');
+            setTimeout(() => msg.classList.remove('show'), 3000);
+        }
+
+        // ==================== SECURITY: INPUT VALIDATION (OWASP) ====================
+        const SecurityValidator = {
+            // Sanitize string - remove XSS attacks
+            sanitizeString(input) {
+                if (typeof input !== 'string') return '';
+                return input
+                    .trim()
+                    .replace(/[<>]/g, '') // Remove < >
+                    .replace(/javascript:/gi, '') // Remove javascript:
+                    .replace(/on\w+=/gi, '') // Remove event handlers
+                    .replace(/data:/gi, '') // Remove data: URLs
+                    .replace(/vbscript:/gi, '') // Remove vbscript:
+                    .replace(/&lt;/g, '') // Remove encoded <
+                    .replace(/&gt;/g, '') // Remove encoded >
+                    .replace(/&#/g, '') // Remove HTML entities
+                    .substring(0, 1000); // Limit length
+            },
+            
+            // Validate email with strict regex
+            validateEmail(email) {
+                if (!email || typeof email !== 'string') return false;
+                const regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+                return regex.test(email) && email.length >= 5 && email.length <= 254;
+            },
+            
+            // Validate password strength
+            validatePassword(password) {
+                const errors = [];
+                if (!password || password.length < 8) errors.push('Au moins 8 caractères');
+                if (password.length > 128) errors.push('Maximum 128 caractères');
+                if (!/[A-Z]/.test(password)) errors.push('Une majuscule');
+                if (!/[a-z]/.test(password)) errors.push('Une minuscule');
+                if (!/[0-9]/.test(password)) errors.push('Un chiffre');
+                if (!/[!@#$%^&*(),.?":{}|<>]/.test(password)) errors.push('Un caractère spécial');
+                return errors.length === 0 ? true : errors;
+            },
+            
+            // Validate phone (Morocco format)
+            validatePhone(phone) {
+                if (!phone) return false;
+                const cleaned = phone.replace(/[\s\-\.]/g, '');
+                // Morocco: +212 or 0 followed by 6/7/5 and 8 digits
+                return /^(\+212|00212|0)[567]\d{8}$/.test(cleaned);
+            },
+            
+            // Validate name (letters, spaces, hyphens, apostrophes)
+            validateName(name) {
+                if (!name || typeof name !== 'string') return false;
+                const trimmed = name.trim();
+                return trimmed.length >= 2 && 
+                       trimmed.length <= 100 && 
+                       /^[\p{L}\s\-'\.]+$/u.test(trimmed) &&
+                       !/\d/.test(trimmed); // No numbers in names
+            },
+            
+            // Validate postal code (Morocco)
+            validatePostalCode(code) {
+                if (!code) return false;
+                return /^\d{5}$/.test(code.trim());
+            },
+            
+            // Validate address
+            validateAddress(address) {
+                if (!address || typeof address !== 'string') return false;
+                const trimmed = address.trim();
+                return trimmed.length >= 10 && trimmed.length <= 500;
+            },
+            
+            // Validate city
+            validateCity(city) {
+                if (!city || typeof city !== 'string') return false;
+                const trimmed = city.trim();
+                return trimmed.length >= 2 && 
+                       trimmed.length <= 100 && 
+                       /^[\p{L}\s\-']+$/u.test(trimmed);
+            },
+            
+            // Escape HTML entities for safe display
+            escapeHtml(text) {
+                if (!text) return '';
+                const div = document.createElement('div');
+                div.textContent = text;
+                return div.innerHTML;
+            },
+            
+            // Validate message length
+            validateMessage(message) {
+                if (!message || typeof message !== 'string') return false;
+                const trimmed = message.trim();
+                return trimmed.length >= 10 && trimmed.length <= 2000;
+            },
+            
+            // Rate limiting for forms (simple client-side)
+            rateLimiter: {
+                attempts: {},
+                maxAttempts: 5,
+                windowMs: 60000, // 1 minute
+                
+                check(formId) {
+                    const now = Date.now();
+                    if (!this.attempts[formId]) {
+                        this.attempts[formId] = { count: 1, firstAttempt: now };
+                        return true;
+                    }
+                    
+                    const record = this.attempts[formId];
+                    if (now - record.firstAttempt > this.windowMs) {
+                        // Reset window
+                        this.attempts[formId] = { count: 1, firstAttempt: now };
+                        return true;
+                    }
+                    
+                    if (record.count >= this.maxAttempts) {
+                        const remainingSeconds = Math.ceil((this.windowMs - (now - record.firstAttempt)) / 1000);
+                        alert(`Trop de tentatives. Réessayez dans ${remainingSeconds} secondes.`);
+                        return false;
+                    }
+                    
+                    record.count++;
+                    return true;
+                },
+                
+                reset(formId) {
+                    delete this.attempts[formId];
+                }
+            },
+            
+            // Validate promo code format
+            validatePromoCode(code) {
+                if (!code) return true; // Optional field
+                return /^[A-Z0-9]{4,20}$/i.test(code.trim());
+            },
+            
+            // Sanitize search input
+            sanitizeSearch(query) {
+                if (!query || typeof query !== 'string') return '';
+                return query
+                    .trim()
+                    .replace(/[<>\"']/g, '')
+                    .substring(0, 100);
+            }
+        };
+
+        function submitContactForm(e) {
+            e.preventDefault();
+            
+            // Rate limiting check
+            if (!SecurityValidator.rateLimiter.check('contact')) {
+                return;
+            }
+            
+            const form = e.target;
+            const name = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Votre nom"]').value);
+            const email = SecurityValidator.sanitizeString(form.querySelector('input[type="email"]').value);
+            const subject = SecurityValidator.sanitizeString(form.querySelector('input[placeholder="Sujet de votre message"]')?.value || '');
+            const message = SecurityValidator.sanitizeString(form.querySelector('textarea').value);
+            
+            // Validate with detailed errors
+            const errors = [];
+            
+            if (!SecurityValidator.validateName(name)) {
+                errors.push('Nom invalide (2-100 caractères, lettres uniquement)');
+            }
+            
+            if (!SecurityValidator.validateEmail(email)) {
+                errors.push('Email invalide (format: exemple@domaine.com)');
+            }
+            
+            if (subject && subject.length > 200) {
+                errors.push('Sujet trop long (max 200 caractères)');
+            }
+            
+            if (!SecurityValidator.validateMessage(message)) {
+                errors.push('Message invalide (10-2000 caractères)');
+            }
+            
+            // Check for spam patterns
+            const spamPatterns = [
+                /\b(viagra|casino|lottery|winner|click here|buy now)\b/i,
+                /(http|https|www\.)/i,
+                /\$\d+/
+            ];
+            
+            if (spamPatterns.some(pattern => pattern.test(message))) {
+                errors.push('Le message contient du contenu non autorisé');
+            }
+            
+            if (errors.length > 0) {
+                alert('Erreurs de validation:\n\n• ' + errors.join('\n• '));
+                return;
+            }
+            
+            // Log for debugging (in production, send to API)
+            console.log('Contact form validated:', {
+                name: SecurityValidator.escapeHtml(name),
+                email: SecurityValidator.escapeHtml(email),
+                subject: SecurityValidator.escapeHtml(subject),
+                messageLength: message.length
+            });
+            
+            // Reset rate limiter on success
+            SecurityValidator.rateLimiter.reset('contact');
+            
+            alert('Merci pour votre message! Nous vous répondrons dans les plus brefs délais.');
+            form.reset();
+        }
+
+        // Navigation Scroll
+        const navbar = document.getElementById('navbarElegant');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll to Top
+        const scrollBtn = document.getElementById('scrollTopElegant');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 500) {
+                scrollBtn.classList.add('visible');
+            } else {
+                scrollBtn.classList.remove('visible');
+            }
+        });
+
+        scrollBtn.addEventListener('click', function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ==================== PAYMENT METHODS ====================
+        function selectPaymentMethod(method) {
+            const cardForm = document.getElementById('cardPaymentForm');
+            const checkoutBtnText = document.getElementById('checkoutBtnText');
+            
+            if (method === 'card') {
+                cardForm.style.display = 'block';
+                checkoutBtnText.innerHTML = '<i class="fas fa-lock"></i> Payer Maintenant';
+            } else {
+                cardForm.style.display = 'none';
+                checkoutBtnText.textContent = 'Confirmer la Commande';
+            }
+        }
+
+        // Format Card Number with spaces
+        function formatCardNumber(input) {
+            let value = input.value.replace(/\s/g, '').replace(/[^0-9]/g, '');
+            let formatted = '';
+            
+            for (let i = 0; i < value.length; i++) {
+                if (i > 0 && i % 4 === 0) {
+                    formatted += ' ';
+                }
+                formatted += value[i];
+            }
+            
+            input.value = formatted;
+            
+            // Detect card type
+            detectCardType(value);
+        }
+
+        // Detect Card Type
+        function detectCardType(number) {
+            const cardTypeIcon = document.getElementById('cardTypeIcon');
+            const cardTypeIndicator = document.getElementById('cardTypeIndicator');
+            const cardPreview = document.querySelector('.card-preview-front');
+            
+            // Remove existing classes
+            cardPreview.classList.remove('visa', 'mastercard', 'amex');
+            
+            let cardType = '';
+            let iconClass = '';
+            
+            if (/^4/.test(number)) {
+                cardType = 'visa';
+                iconClass = 'fab fa-cc-visa';
+                cardPreview.classList.add('visa');
+            } else if (/^5[1-5]/.test(number) || /^2[2-7]/.test(number)) {
+                cardType = 'mastercard';
+                iconClass = 'fab fa-cc-mastercard';
+                cardPreview.classList.add('mastercard');
+            } else if (/^3[47]/.test(number)) {
+                cardType = 'amex';
+                iconClass = 'fab fa-cc-amex';
+                cardPreview.classList.add('amex');
+            } else {
+                iconClass = 'fas fa-credit-card';
+            }
+            
+            cardTypeIcon.innerHTML = `<i class="${iconClass}"></i>`;
+            cardTypeIndicator.innerHTML = iconClass ? `<i class="${iconClass}"></i>` : '';
+        }
+
+        // Update Card Preview
+        function updateCardPreview() {
+            const cardNumber = document.getElementById('cardNumber').value || '•••• •••• •••• ••••';
+            const cardHolder = document.getElementById('cardHolder').value || 'VOTRE NOM';
+            const expiryMonth = document.getElementById('expiryMonth').value || 'MM';
+            const expiryYear = document.getElementById('expiryYear').value || 'AA';
+            
+            document.getElementById('cardNumberPreview').textContent = cardNumber || '•••• •••• •••• ••••';
+            document.getElementById('cardHolderPreview').textContent = cardHolder || 'VOTRE NOM';
+            document.getElementById('cardExpiryPreview').textContent = `${expiryMonth}/${expiryYear}`;
+        }
+
+        // Validate Card (Luhn Algorithm)
+        function validateCardNumber(number) {
+            const digits = number.replace(/\s/g, '');
+            if (!/^\d{13,19}$/.test(digits)) return false;
+            
+            let sum = 0;
+            let isEven = false;
+            
+            for (let i = digits.length - 1; i >= 0; i--) {
+                let digit = parseInt(digits[i]);
+                
+                if (isEven) {
+                    digit *= 2;
+                    if (digit > 9) digit -= 9;
+                }
+                
+                sum += digit;
+                isEven = !isEven;
+            }
+            
+            return sum % 10 === 0;
+        }
+
+        // Validate Card Form
+        function validateCardPayment() {
+            const cardNumber = document.getElementById('cardNumber').value.replace(/\s/g, '');
+            const cardHolder = document.getElementById('cardHolder').value.trim();
+            const expiryMonth = document.getElementById('expiryMonth').value;
+            const expiryYear = document.getElementById('expiryYear').value;
+            const cvv = document.getElementById('cardCVV').value;
+            
+            const errors = [];
+            
+            // Card Number
+            if (!cardNumber || !validateCardNumber(cardNumber)) {
+                errors.push('Numéro de carte invalide');
+            }
+            
+            // Card Holder
+            if (!cardHolder || cardHolder.length < 3) {
+                errors.push('Nom du titulaire requis');
+            }
+            
+            // Expiry Date
+            if (!expiryMonth || !expiryYear) {
+                errors.push('Date d\'expiration requise');
+            } else {
+                const now = new Date();
+                const currentYear = now.getFullYear() % 100;
+                const currentMonth = now.getMonth() + 1;
+                
+                if (parseInt(expiryYear) < currentYear || 
+                    (parseInt(expiryYear) === currentYear && parseInt(expiryMonth) < currentMonth)) {
+                    errors.push('Carte expirée');
+                }
+            }
+            
+            // CVV
+            const isAmex = /^3[47]/.test(cardNumber);
+            if (!cvv || (isAmex && cvv.length !== 4) || (!isAmex && cvv.length !== 3)) {
+                errors.push('CVV invalide');
+            }
+            
+            return errors;
+        }
+
+        // Update placeOrder function
+        const originalPlaceOrder = placeOrder;
+        placeOrder = function() {
+            // Check if card payment is selected
+            const cardPayment = document.querySelector('input[name="payment"][value="card"]');
+            
+            if (cardPayment && cardPayment.checked) {
+                // Validate card form
+                const cardErrors = validateCardPayment();
+                
+                if (cardErrors.length > 0) {
+                    alert('Erreurs de paiement:\n\n• ' + cardErrors.join('\n• '));
+                    return;
+                }
+                
+                // Show loading
+                document.getElementById('checkoutBtnText').style.display = 'none';
+                document.getElementById('checkoutBtnLoading').style.display = 'inline-flex';
+                
+                // Simulate payment processing
+                setTimeout(() => {
+                    document.getElementById('checkoutBtnText').style.display = 'inline';
+                    document.getElementById('checkoutBtnLoading').style.display = 'none';
+                    
+                    alert('Paiement accepté! ✓\n\nMerci pour votre commande!\nVous recevrez une confirmation par email.');
+                    cart = [];
+                    updateCart();
+                    showPage('home');
+                }, 2500);
+            } else {
+                // Cash on delivery
+                if (!SecurityValidator.rateLimiter.check('checkout')) {
+                    return;
+                }
+                
+                alert('Merci pour votre commande!\n\nVous recevrez une confirmation par email.\nPaiement à la livraison.');
+                cart = [];
+                updateCart();
+                showPage('home');
+            }
+        };
+
+        // Animated Counter for Atelier Stats
+        function animateCounter(element, target, duration = 2000) {
+            let start = 0;
+            const increment = target / (duration / 16);
+            
+            function updateCounter() {
+                start += increment;
+                if (start < target) {
+                    element.textContent = Math.floor(start);
+                    requestAnimationFrame(updateCounter);
+                } else {
+                    element.textContent = target;
+                }
+            }
+            updateCounter();
+        }
+
+        // Intersection Observer for Stats Animation
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const statNumbers = entry.target.querySelectorAll('.stat-number-creative');
+                    statNumbers.forEach(stat => {
+                        const target = parseInt(stat.dataset.target);
+                        if (target && !stat.classList.contains('animated')) {
+                            stat.classList.add('animated');
+                            animateCounter(stat, target);
+                        }
+                    });
+                }
+            });
+        }, { threshold: 0.3 });
+
+        // Observe stats section
+        const atelierStats = document.querySelector('.atelier-stats-creative');
+        if (atelierStats) {
+            statsObserver.observe(atelierStats);
+        }
+
+        // Parallax effect for particles
+        document.addEventListener('mousemove', (e) => {
+            const particles = document.querySelectorAll('.particle');
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            
+            particles.forEach((particle, index) => {
+                const speed = (index + 1) * 0.5;
+                const xMove = (x - 0.5) * speed * 30;
+                const yMove = (y - 0.5) * speed * 30;
+                particle.style.transform = `translate(${xMove}px, ${yMove}px)`;
+            });
+        });
+    </script>
+
+</body>
+</html>
