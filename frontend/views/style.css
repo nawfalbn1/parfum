@@ -1,12 +1,20 @@
 
 :root {
-    --primary-gold: #59ca955b;
-    --dark-gold: #198754;
-    --soft-cream: #faf8f5;
-    --deep-black: #0a0a0a;
-    --charcoal: #1a1a1a;
-    --warm-gray: #6b6b6b;
-    --light-gray: #e8e6e3;
+    /* ====== LUXURY FRAGRANCE COLOR SYSTEM ====== */
+    /* Primary Gold — warm amber, never harsh */
+    --primary-gold: #C9A96E;
+    /* Dark Gold — deep bronze for hover/active */
+    --dark-gold: #A07848;
+    /* Soft Cream — warm ivory background */
+    --soft-cream: #FAF6F0;
+    /* Deep Black — pure rich dark for text */
+    --deep-black: #12100E;
+    /* Charcoal — softer dark for cards */
+    --charcoal: #1E1A14;
+    /* Warm Gray — muted body text */
+    --warm-gray: #7A7169;
+    /* Light Gray — subtle borders */
+    --light-gray: #EAE4D9;
 }
 
 /* ============ SAFARI RESET ============ */
@@ -8648,14 +8656,28 @@ body.coco-redesign .scroll-top-elegant:hover {
     }
 }
 
-/* ==================== EDITORIAL FIRSTUR THEME ==================== */
+/* ==================== EDITORIAL LUXURY THEME ==================== */
 :root {
-    --edit-bg: #F4EFE6;
-    --edit-text: #1C1A17;
-    --edit-text-muted: #9E9890;
+    /* Warm parchment — main page background */
+    --edit-bg: #F7F2E9;
+    /* Rich espresso — primary text */
+    --edit-text: #1A1612;
+    /* Dusty taupe — secondary/muted text */
+    --edit-text-muted: #8C8278;
+    /* Elegant serif typography */
     --edit-font-serif: 'Playfair Display', 'Cormorant Garamond', serif;
+    /* Clean sans for body/labels */
     --edit-font-sans: 'Inter', 'Montserrat', sans-serif;
-    --edit-accent: #3b2c21;
+    /* Deep espresso — buttons & active states */
+    --edit-accent: #2C1F0E;
+    /* Warm amber gold — decorative highlights */
+    --edit-gold: #C9A96E;
+    /* Soft rose — pill badges & tags */
+    --edit-rose: #D4B49A;
+    /* Pale cream — card surfaces */
+    --edit-surface: #FDFAF5;
+    /* Border tone — dividers & outlines */
+    --edit-border: #E2D9C8;
 }
 
 body {
@@ -8715,7 +8737,7 @@ body {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: var(--edit-text);
+    background-color: var(--edit-gold);
 }
 
 .nav-actions-editorial {
@@ -8802,7 +8824,7 @@ body {
     transition: background-color 0.3s;
 }
 .btn-discover-editorial:hover {
-    background-color: #2a1f17;
+    background-color: var(--edit-gold);
     color: #ffffff;
 }
 
@@ -8834,8 +8856,8 @@ body {
 .description-editorial {
     padding: 100px 0;
     background-color: var(--edit-bg);
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee;
+    border-top: 1px solid var(--edit-border);
+    border-bottom: 1px solid var(--edit-border);
 }
 
 .desc-container-editorial {
@@ -8912,8 +8934,8 @@ body {
     display: inline-block;
     padding: 5px 30px;
     border-radius: 40px;
-    background-color: #EADBB8;
-    color: #927546;
+    background-color: var(--edit-rose);
+    color: var(--edit-accent);
     font-family: var(--edit-font-serif);
     vertical-align: middle;
 }
@@ -8925,8 +8947,8 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #EADBB8;
-    color: #927546;
+    background-color: var(--edit-rose);
+    color: var(--edit-accent);
     margin-left: 10px;
     vertical-align: middle;
 }
@@ -9008,13 +9030,14 @@ body {
     position: absolute;
     bottom: 60px;
     left: -30px;
-    background-color: #fff;
+    background-color: var(--edit-surface);
     padding: 12px 30px;
     border-radius: 50px;
     font-family: var(--edit-font-sans);
     font-size: 0.85rem;
     font-weight: 500;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    color: var(--edit-accent);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
     z-index: 2;
 }
 
@@ -9041,8 +9064,8 @@ body {
 .btn-read-more-editorial {
     display: inline-block;
     padding: 12px 30px;
-    border: 1px solid #D5C2A5;
-    color: #927546;
+    border: 1px solid var(--edit-border);
+    color: var(--edit-gold);
     font-family: var(--edit-font-sans);
     font-size: 0.75rem;
     font-weight: 500;
@@ -9050,9 +9073,12 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     transition: 0.3s;
+    border-radius: 4px;
 }
 .btn-read-more-editorial:hover {
-    background-color: #EADBB8;
+    background-color: var(--edit-rose);
+    border-color: var(--edit-rose);
+    color: var(--edit-accent);
 }
 
 /* Responsive Editorial */
